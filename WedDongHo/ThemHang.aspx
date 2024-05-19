@@ -5,8 +5,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <form id="form1" runat="server">
-    <asp:SqlDataSource ID="sqldsHang" runat="server" ConnectionString="<%$ ConnectionStrings:KieuShopConnectionString %>" SelectCommand="select * from Hang"></asp:SqlDataSource>
-    <asp:SqlDataSource ID="sqldsDanhMuc" runat="server" ConnectionString="<%$ ConnectionStrings:KieuShopConnectionString %>" SelectCommand="SELECT * FROM [DanhMuc]"></asp:SqlDataSource>
+    <asp:SqlDataSource ID="sqldsHang" runat="server" ConnectionString="<%$ ConnectionStrings:Shop %>" SelectCommand="select * from Hang"></asp:SqlDataSource>
+    <asp:SqlDataSource ID="sqldsDanhMuc" runat="server" ConnectionString="<%$ ConnectionStrings:Shop %>" SelectCommand="SELECT * FROM [DanhMuc]"></asp:SqlDataSource>
     <h1>Thêm mới hàng</h1>
     <asp:Label ID="lblThongBao" runat="server" Text=""></asp:Label>
     <table class="nav-justified table">

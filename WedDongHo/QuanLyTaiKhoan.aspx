@@ -7,7 +7,7 @@
     <h1>Quản lý tài khoản</h1>
     <form id="form1" runat="server" class="auto-style1">
         <div>
-        <asp:SqlDataSource ID="sqlDsTaikhoan" runat="server" ConnectionString="<%$ ConnectionStrings:KieuShopConnectionString %>" DeleteCommand="DELETE FROM [TaiKhoan] WHERE [TaiKhoan] = @TaiKhoan" InsertCommand="INSERT INTO [TaiKhoan] ([TaiKhoan], [MatKhau], [Email], [DiaChi], [SoDT], [Loai]) VALUES (@TaiKhoan, @MatKhau, @Email, @DiaChi, @SoDT, @Loai)" SelectCommand="SELECT * FROM [TaiKhoan]" UpdateCommand="UPDATE [TaiKhoan] SET [MatKhau] = @MatKhau, [Email] = @Email, [DiaChi] = @DiaChi, [SoDT] = @SoDT, [Loai] = @Loai WHERE [TaiKhoan] = @TaiKhoan">
+        <asp:SqlDataSource ID="sqlDsTaikhoan" runat="server" ConnectionString="<%$ ConnectionStrings:Shop %>" DeleteCommand="DELETE FROM [TaiKhoan] WHERE [TaiKhoan] = @TaiKhoan" InsertCommand="INSERT INTO [TaiKhoan] ([TaiKhoan], [MatKhau], [Email], [DiaChi], [SoDT], [Loai]) VALUES (@TaiKhoan, @MatKhau, @Email, @DiaChi, @SoDT, @Loai)" SelectCommand="SELECT * FROM [TaiKhoan]" UpdateCommand="UPDATE [TaiKhoan] SET [MatKhau] = @MatKhau, [Email] = @Email, [DiaChi] = @DiaChi, [SoDT] = @SoDT, [Loai] = @Loai WHERE [TaiKhoan] = @TaiKhoan">
             <DeleteParameters>
                 <asp:Parameter Name="TaiKhoan" Type="String" />
             </DeleteParameters>

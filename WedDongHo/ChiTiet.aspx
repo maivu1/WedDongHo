@@ -9,7 +9,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-    <asp:SqlDataSource ID="SqlDsChiTiet" runat="server" ConnectionString="<%$ ConnectionStrings:KieuShopConnectionString %>" SelectCommand="SELECT * FROM [Hang] WHERE ([MaHang] = @MaHang)">
+    <asp:SqlDataSource ID="SqlDsChiTiet" runat="server" ConnectionString="<%$ ConnectionStrings:Shop %>" SelectCommand="SELECT * FROM [Hang] WHERE ([MaHang] = @MaHang)">
         <SelectParameters>
             <asp:QueryStringParameter Name="MaHang" QueryStringField="MaHang" Type="String" />
         </SelectParameters>

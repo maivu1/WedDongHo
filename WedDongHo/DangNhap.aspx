@@ -13,7 +13,7 @@
                         <td><span style="color: rgb(80, 80, 80); font-family: verdana, geneva, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 249); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"><span class="Apple-converted-space">
                             <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Italic="True" Font-Names="Times New Roman" Font-Overline="False" Font-Size="X-Large" Font-Strikeout="False" ForeColor="Black" Text="ĐĂNG NHẬP "></asp:Label>
                             <asp:SqlDataSource ID="sqlDsDN" runat="server" 
-                                ConnectionString="<%$ ConnectionStrings:KieuShopConnectionString %>" 
+                                ConnectionString="<%$ ConnectionStrings:Shop %>" 
                                 SelectCommand="SELECT [TaiKhoan], [MatKhau], [Loai] FROM [TaiKhoan] WHERE (([TaiKhoan] = @TaiKhoan) AND ([MatKhau] = @MatKhau))">
                                 <SelectParameters>
                                     <asp:ControlParameter ControlID="txtTenTKDN" Name="TaiKhoan" PropertyName="Text" Type="String" />
@@ -50,7 +50,7 @@
                 <table class="nav-justified">
                     <tr>
                         <td class="auto-style21">
-                            <asp:Image ID="Image1" runat="server" ImageUrl="~/public/images/anhDN.jpg" Width="580px" />
+                            <asp:Image ID="Image1" runat="server" ImageUrl="~/public/images/anhDNN.jpg" Width="580px" />
                         </td>
                         <td class="style2"></td>
                     </tr>

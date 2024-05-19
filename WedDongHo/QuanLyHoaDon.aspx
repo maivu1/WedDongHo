@@ -7,7 +7,7 @@
     <form id="form1" runat="server">
         <h1>Quản lý hóa đơn</h1>
 
-        <asp:SqlDataSource ID="sqldsHoaDon" runat="server" ConnectionString="<%$ ConnectionStrings:KieuShopConnectionString %>" DeleteCommand="DELETE FROM [HoaDon] WHERE [MaHoaDon] = @MaHoaDon" InsertCommand="INSERT INTO [HoaDon] ([MaHang], [TaiKhoan], [SoLuong], [NgayMua]) VALUES (@MaHang, @TaiKhoan, @SoLuong, @NgayMua)" SelectCommand="SELECT * FROM [HoaDon]" UpdateCommand="UPDATE [HoaDon] SET [MaHang] = @MaHang, [TaiKhoan] = @TaiKhoan, [SoLuong] = @SoLuong, [NgayMua] = @NgayMua WHERE [MaHoaDon] = @MaHoaDon">
+        <asp:SqlDataSource ID="sqldsHoaDon" runat="server" ConnectionString="<%$ ConnectionStrings:Shop %>" DeleteCommand="DELETE FROM [HoaDon] WHERE [MaHoaDon] = @MaHoaDon" InsertCommand="INSERT INTO [HoaDon] ([MaHang], [TaiKhoan], [SoLuong], [NgayMua]) VALUES (@MaHang, @TaiKhoan, @SoLuong, @NgayMua)" SelectCommand="SELECT * FROM [HoaDon]" UpdateCommand="UPDATE [HoaDon] SET [MaHang] = @MaHang, [TaiKhoan] = @TaiKhoan, [SoLuong] = @SoLuong, [NgayMua] = @NgayMua WHERE [MaHoaDon] = @MaHoaDon">
             <DeleteParameters>
                 <asp:Parameter Name="MaHoaDon" Type="Int32" />
             </DeleteParameters>

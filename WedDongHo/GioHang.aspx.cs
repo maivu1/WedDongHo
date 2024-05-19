@@ -76,7 +76,13 @@ namespace WedDongHo
                 labThongBao.Text = "Bạn cần phải đăng nhập khi mua hàng";
                 return;
             }
+            if (Session["Cart"] == null || ((Cart)Session["Cart"]).Items.Count == 0)
+            {
+                labThongBao.Text = "Vui lòng thêm sản phẩm vào giỏ hàng";
+                return;
+            }
             Cart cart = (Cart)Session["Cart"];
+           
 
             foreach (Hang item in cart.Items)
             {

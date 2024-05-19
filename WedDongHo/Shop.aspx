@@ -5,7 +5,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div>
-        <asp:SqlDataSource ID="sqldsCategoryDetail" runat="server" ConnectionString="<%$ ConnectionStrings:KieuShopConnectionString %>" SelectCommand="SELECT DISTINCT [tenDanhMuc] FROM [DanhMuc] WHERE ([MaDanhMuc] = @MaDanhMuc)">
+        <asp:SqlDataSource ID="sqldsCategoryDetail" runat="server" ConnectionString="<%$ ConnectionStrings:Shop %>" SelectCommand="SELECT DISTINCT [tenDanhMuc] FROM [DanhMuc] WHERE ([MaDanhMuc] = @MaDanhMuc)">
             <SelectParameters>
                 <asp:QueryStringParameter Name="MaDanhMuc" QueryStringField="category" Type="String" />
             </SelectParameters>
@@ -18,7 +18,7 @@
 
     </div>
     <div class="row">
-        <asp:SqlDataSource ID="sqldsHang" runat="server" ConnectionString="<%$ ConnectionStrings:KieuShopConnectionString %>" SelectCommand="SELECT * FROM [Hang] WHERE ([MaDanhMuc] = @MaDanhMuc)">
+        <asp:SqlDataSource ID="sqldsHang" runat="server" ConnectionString="<%$ ConnectionStrings:Shop %>" SelectCommand="SELECT * FROM [Hang] WHERE ([MaDanhMuc] = @MaDanhMuc)">
             <SelectParameters>
                 <asp:QueryStringParameter Name="MaDanhMuc" QueryStringField="category" Type="String" />
             </SelectParameters>

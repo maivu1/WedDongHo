@@ -5,10 +5,10 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <form id="form1" runat="server">
     <div>
-        <asp:SqlDataSource ID="SqldsSoTaiKhoan" runat="server" ConnectionString="<%$ ConnectionStrings:KieuShopConnectionString %>" SelectCommand="select count(*) from TaiKhoan"></asp:SqlDataSource>
-        <asp:SqlDataSource ID="sqldsSoDanhMuc" runat="server" ConnectionString="<%$ ConnectionStrings:KieuShopConnectionString %>" SelectCommand="select count(*) from DanhMuc"></asp:SqlDataSource>
-        <asp:SqlDataSource ID="sqldsSoHang" runat="server" ConnectionString="<%$ ConnectionStrings:KieuShopConnectionString %>" SelectCommand="select count(*) from Hang"></asp:SqlDataSource>
-        <asp:SqlDataSource ID="sqldsSoHoaDon" runat="server" ConnectionString="<%$ ConnectionStrings:KieuShopConnectionString %>" SelectCommand="select count(*) from HoaDon"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqldsSoTaiKhoan" runat="server" ConnectionString="<%$ ConnectionStrings:Shop %>" SelectCommand="select count(*) from TaiKhoan"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="sqldsSoDanhMuc" runat="server" ConnectionString="<%$ ConnectionStrings:Shop %>" SelectCommand="select count(*) from DanhMuc"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="sqldsSoHang" runat="server" ConnectionString="<%$ ConnectionStrings:Shop %>" SelectCommand="select count(*) from Hang"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="sqldsSoHoaDon" runat="server" ConnectionString="<%$ ConnectionStrings:Shop %>" SelectCommand="select count(*) from HoaDon"></asp:SqlDataSource>
     </div>
     <h1>Admin</h1>
 

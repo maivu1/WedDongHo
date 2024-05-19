@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminMasterPage.master" AutoEventWireup="true" CodeBehind="DangKy.aspx.cs" Inherits="WedDongHo.DangKy" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="DangKy.aspx.cs" Inherits="WedDongHo.DangKy" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <title>Đăng ký</title>
@@ -25,7 +25,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <asp:SqlDataSource ID="SqlDsDangKy" runat="server" 
-    ConnectionString="<%$ ConnectionStrings:KieuShopConnectionString %>" 
+    ConnectionString="<%$ ConnectionStrings:Shop %>" 
     DeleteCommand="DELETE FROM [TaiKhoan] WHERE [TaiKhoan] = @MaTaiKhoan" 
     InsertCommand="INSERT INTO [TaiKhoan] ( [TaiKhoan], [MatKhau], [Email], [DiaChi], [SoDT], [Loai]) VALUES ( @TaiKhoan, @MatKhau, @Email, @DiaChi, @SoDT, @Loai)" 
     SelectCommand="SELECT * FROM [TaiKhoan]" 

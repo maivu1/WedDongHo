@@ -5,7 +5,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div>
-        <asp:SqlDataSource ID="sqldsCategory" runat="server" ConnectionString="<%$ ConnectionStrings:KieuShopConnectionString %>" SelectCommand="SELECT * FROM [DanhMuc]"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="sqldsCategory" runat="server" ConnectionString="<%$ ConnectionStrings:Shop %>" SelectCommand="SELECT * FROM [DanhMuc]"></asp:SqlDataSource>
     </div>
     <asp:ListView ID="ListView2" runat="server" DataKeyNames="MaDanhMuc" DataSourceID="sqldsCategory">
         <ItemTemplate>
@@ -15,7 +15,7 @@
                     
                     <a href="Shop.aspx?category=<%# Eval("MaDanhMuc") %>"><h2 class='title'><%# Eval("tenDanhMuc") %></h2></a>
                 </div>
-                <asp:SqlDataSource ID="sqlds3Product" runat="server" ConnectionString="<%$ ConnectionStrings:KieuShopConnectionString %>" SelectCommand="select Top 3 * from Hang where maDanhMuc = @maDanhMuc">
+                <asp:SqlDataSource ID="sqlds3Product" runat="server" ConnectionString="<%$ ConnectionStrings:Shop %>" SelectCommand="select Top 3 * from Hang where maDanhMuc = @maDanhMuc">
                     <SelectParameters>
                         <asp:ControlParameter ControlID="HiddenField1" Name="maDanhMuc" PropertyName="Value" />
                     </SelectParameters>

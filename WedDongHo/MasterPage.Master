@@ -9,7 +9,7 @@
     
     <link rel="stylesheet" href="public/bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="public/css/style.css"/>
-    <script src="public/bootstrap/js/bootstrap.min.js"></script>
+     <script src="public/bootstrap/js/bootstrap.min.js"></script>
     <meta charset="UTF-8"/>
 </head>
 <body>
@@ -17,7 +17,7 @@
         
     <header>
         <div id="headerTop">
-            <a href="index.aspx"><img src="public/images/logo.png" alt=""></a>
+            <a href="index.aspx"><image src="public/images/logoo.png" alt=""></a>
             <ul>
                 <li><a href="index.aspx">Trang chủ</a></li>
                 <li><a href="GioHang.aspx">Giỏ hàng</a></li>
@@ -30,7 +30,7 @@
             </ul>
         </div>
         <div>
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:KieuShopConnectionString %>" SelectCommand="SELECT * FROM [DanhMuc]"></asp:SqlDataSource>
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Shop %>" SelectCommand="SELECT * FROM [DanhMuc]"></asp:SqlDataSource>
         </div>
         <div id="headerBottom">
             <ul>
@@ -50,36 +50,31 @@
     </section>
     </form>
     <footer>
-        <div id="footerTop" class="row">
-            <div class="col-md-4">Miễn phí giao hàng với hóa đơn trên 500.000</div>
-            <div class="col-md-4 center">Chăm sóc khách hàng : <span class='orange'>0966 810 905</span></div>
-            <div class="col-md-4 right">Giao hàng nhanh, trả hàng miễn phí</div>
-        </div>
         <div id="footerContent" class="row">
             <div class="col-md-4 center">
-                <h2>Thành viên nhóm 4</h2>
-                <h3>Nguyễn Thị Kiều</h3>
-                <h3>Lương Hồng Quảng</h3>
-                <h3>Tạ Minh Luận</h3>
-                <h3>Hoàng Công Hiếu</h3>
+                <h2>Thành viên nhóm 3</h2>
+                <h3>Mai Vũ</h3>
+                <h3>Nguyễn Văn Hải</h3>
+                <h3>Nguyễn Hữu Duy</h3>
+                <h3>Nguyễn Hữu Trường</h3>
             </div>
             <div class="col-md-4 center">
                 <h2>Liên hệ</h2>
-                <h3>0966 810 905</h3>
-                <h3>0168 542 2617</h3>
-                <h3>0966 810 905</h3>
-                <h3>0966 784 763</h3>
+                <h3>0354 639 103</h3>
+                <h3>0368 805 196</h3>
+                <h3>0366 810 905</h3>
+                <h3>0328 394 538</h3>
             </div>
             <div class="col-md-4 center">
                 <h2>Facebook</h2>
-                <h3><a href="#">Kiều</h3>
-                <h3><a href="#">Quảng</h3>
-                <h3><a href="#">Luận</h3>
-                <h3><a href="#">Hiếu</h3>
+                <h3><a href="#">Vũ</h3>
+                <h3><a href="#">Hải</h3>
+                <h3><a href="#">Duy</h3>
+                <h3><a href="#">Trường</h3>
             </div>
         </div>
         <div id="footerBottom">
-            © Copyright 2017  <span class='orange'>  KHMT4</span>
+            © Copyright 2024  <span class='orange'>  IS 385 BB</span>
         </div>
     </footer>
 </body>

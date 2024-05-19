@@ -12,9 +12,9 @@ namespace WedDongHo
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Load();
+            LoadData();
         }
-        public void Load()
+        public void LoadData()
         {
             DataSourceSelectArguments args = new DataSourceSelectArguments();
             DataView view = (DataView)SqldsSoTaiKhoan.Select(args);

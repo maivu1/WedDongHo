@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminMasterPage.master" AutoEventWireup="true" CodeBehind="GioHang.aspx.cs" Inherits="WedDongHo.GioHang" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeBehind="GioHang.aspx.cs" Inherits="WedDongHo.GioHang" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <title>Giỏ hàng</title>
@@ -77,7 +77,7 @@
     <br />
 &nbsp;&nbsp;
     <br />
-    <asp:SqlDataSource ID="sqldsHoaDon" runat="server" ConnectionString="<%$ ConnectionStrings:KieuShopConnectionString %>" SelectCommand="SELECT * FROM [HoaDon]" DeleteCommand="DELETE FROM [HoaDon] WHERE [MaHoaDon] = @MaHoaDon" InsertCommand="INSERT INTO [HoaDon] ([MaHang], [TaiKhoan], [SoLuong], [NgayMua]) VALUES (@MaHang, @TaiKhoan, @SoLuong, @NgayMua)" UpdateCommand="UPDATE [HoaDon] SET [MaHang] = @MaHang, [TaiKhoan] = @TaiKhoan, [SoLuong] = @SoLuong, [NgayMua] = @NgayMua WHERE [MaHoaDon] = @MaHoaDon">
+    <asp:SqlDataSource ID="sqldsHoaDon" runat="server" ConnectionString="<%$ ConnectionStrings:Shop %>" SelectCommand="SELECT * FROM [HoaDon]" DeleteCommand="DELETE FROM [HoaDon] WHERE [MaHoaDon] = @MaHoaDon" InsertCommand="INSERT INTO [HoaDon] ([MaHang], [TaiKhoan], [SoLuong], [NgayMua]) VALUES (@MaHang, @TaiKhoan, @SoLuong, @NgayMua)" UpdateCommand="UPDATE [HoaDon] SET [MaHang] = @MaHang, [TaiKhoan] = @TaiKhoan, [SoLuong] = @SoLuong, [NgayMua] = @NgayMua WHERE [MaHoaDon] = @MaHoaDon">
         <DeleteParameters>
             <asp:Parameter Name="MaHoaDon" Type="Int32" />
         </DeleteParameters>

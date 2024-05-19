@@ -85,90 +85,51 @@
     <Content Include="public\bootstrap\js\npm.js" />
     <Content Include="public\css\admin.css" />
     <Content Include="public\css\style.css" />
-    <Content Include="public\images\A1.jpg" />
-    <Content Include="public\images\AAaa.jpg" />
-    <Content Include="public\images\AKB1.jpg" />
-    <Content Include="public\images\AKB2.jpg" />
-    <Content Include="public\images\AKB3.jpg" />
-    <Content Include="public\images\AKB4.jpg" />
-    <Content Include="public\images\AKB5.jpg" />
-    <Content Include="public\images\AKG1.jpg" />
-    <Content Include="public\images\AKG2.jpg" />
-    <Content Include="public\images\AKG3.jpg" />
-    <Content Include="public\images\AKG4.jpg" />
-    <Content Include="public\images\AKG5.jpg" />
-    <Content Include="public\images\AKKB1.jpg" />
-    <Content Include="public\images\AKKB2.jpg" />
-    <Content Include="public\images\AKKB3.jpg" />
-    <Content Include="public\images\AKKB4.jpg" />
-    <Content Include="public\images\AKKB5.jpg" />
-    <Content Include="public\images\AKKG1.jpg" />
-    <Content Include="public\images\AKKG2.jpg" />
-    <Content Include="public\images\AKKG3.jpg" />
-    <Content Include="public\images\AKKG4.jpg" />
-    <Content Include="public\images\AKKG5.jpg" />
-    <Content Include="public\images\ALG1.jpg" />
-    <Content Include="public\images\ALG2.jpg" />
-    <Content Include="public\images\ALG3.jpg" />
-    <Content Include="public\images\ALG4.jpg" />
-    <Content Include="public\images\ALG5.jpg" />
-    <Content Include="public\images\anhDN.jpg" />
-    <Content Include="public\images\ATB1.jpg" />
-    <Content Include="public\images\ATB2.jpg" />
-    <Content Include="public\images\ATB3.jpg" />
-    <Content Include="public\images\ATB4.jpg" />
-    <Content Include="public\images\ATB5.jpg" />
-    <Content Include="public\images\ATKB1.jpg" />
-    <Content Include="public\images\ATKB2.jpg" />
-    <Content Include="public\images\ATKB3.jpg" />
-    <Content Include="public\images\ATKB4.jpg" />
-    <Content Include="public\images\ATKB5.jpg" />
-    <Content Include="public\images\ATKG1.jpg" />
-    <Content Include="public\images\ATKG2.jpg" />
-    <Content Include="public\images\ATKG3.jpg" />
-    <Content Include="public\images\ATKG4.jpg" />
-    <Content Include="public\images\ATKG5.jpg" />
-    <Content Include="public\images\logo.png" />
-    <Content Include="public\images\QJB1.jpg" />
-    <Content Include="public\images\QJB2.jpg" />
-    <Content Include="public\images\QJB3.jpg" />
-    <Content Include="public\images\QJB4.jpg" />
-    <Content Include="public\images\QJB5.jpg" />
-    <Content Include="public\images\QJG1.jpg" />
-    <Content Include="public\images\QJG2.jpg" />
-    <Content Include="public\images\QJG3.jpg" />
-    <Content Include="public\images\QJG4.jpg" />
-    <Content Include="public\images\QJG5.jpg" />
-    <Content Include="public\images\QJKB1.jpg" />
-    <Content Include="public\images\QJKB2.jpg" />
-    <Content Include="public\images\QJKB3.jpg" />
-    <Content Include="public\images\QJKB4.jpg" />
-    <Content Include="public\images\QJKB5.jpg" />
-    <Content Include="public\images\SMB1.jpg" />
-    <Content Include="public\images\SMB2.jpg" />
-    <Content Include="public\images\SMB3.jpg" />
-    <Content Include="public\images\SMB4.jpg" />
-    <Content Include="public\images\SMB5.jpg" />
-    <Content Include="public\images\SMG1.jpg" />
-    <Content Include="public\images\SMG2.jpg" />
-    <Content Include="public\images\SMG3.jpg" />
-    <Content Include="public\images\SMG4.jpg" />
-    <Content Include="public\images\SMG5.jpg" />
-    <Content Include="public\images\SMKB1.jpg" />
-    <Content Include="public\images\SMKB2.jpg" />
-    <Content Include="public\images\SMKB3.jpg" />
-    <Content Include="public\images\SMKB4.jpg" />
-    <Content Include="public\images\SMKB5.jpg" />
-    <Content Include="public\images\SMKG1.jpg" />
-    <Content Include="public\images\SMKG2.jpg" />
-    <Content Include="public\images\SMKG3.jpg" />
-    <Content Include="public\images\SMKG4.jpg" />
-    <Content Include="public\images\SMKG5.jpg" />
-    <Content Include="public\images\VDKG1.jpg" />
-    <Content Include="public\images\VDKG2.jpg" />
-    <Content Include="public\images\VDKG3.jpg" />
-    <Content Include="public\images\VDKG4.jpg" />
-    <Content Include="public\images\VDKG5.jpg" />
+    <Content Include="public\images\anhDNN.jpg" />
+    <Content Include="public\images\doi1.jpg" />
+    <Content Include="public\images\doi2.jpg" />
+    <Content Include="public\images\doi3.jpg" />
+    <Content Include="public\images\doi4.jpg" />
+    <Content Include="public\images\doi5.jpg" />
+    <Content Include="public\images\doi6.jpg" />
+    <Content Include="public\images\doi7.jpg" />
+    <Content Include="public\images\doi8.jpg" />
+    <Content Include="public\images\logoo.png" />
+    <Content Include="public\images\NAM1.jpg" />
+    <Content Include="public\images\nam2.jpg" />
+    <Content Include="public\images\nam3.jpg" />
+    <Content Include="public\images\nam4.jpg" />
+    <Content Include="public\images\nam5.jpg" />
+    <Content Include="public\images\nam6.jpg" />
+    <Content Include="public\images\nam7.jpg" />
+    <Content Include="public\images\nam8.jpg" />
+    <Content Include="public\images\nam9.jpg" />
+    <Content Include="public\images\nu1.jpg" />
+    <Content Include="public\images\nu2.jpg" />
+    <Content Include="public\images\nu3.jpg" />
+    <Content Include="public\images\nu4.jpg" />
+    <Content Include="public\images\nu5.jpg" />
+    <Content Include="public\images\nu6.jpg" />
+    <Content Include="public\images\nu7.jpg" />
+    <Content Include="public\images\nu8.jpg" />
+    <Content Include="public\images\nu9.jpg" />
+    <Content Include="public\images\tm1.jpg" />
+    <Content Include="public\images\tm10.jpg" />
+    <Content Include="public\images\tm2.jpg" />
+    <Content Include="public\images\tm3.jpg" />
+    <Content Include="public\images\tm4.jpg" />
+    <Content Include="public\images\tm5.jpg" />
+    <Content Include="public\images\tm6.jpg" />
+    <Content Include="public\images\tm7.jpg" />
+    <Content Include="public\images\tm8.jpg" />
+    <Content Include="public\images\tm9.jpg" />
+    <Content Include="public\images\tt1.jpg" />
+    <Content Include="public\images\tt2.jpg" />
+    <Content Include="public\images\tt3.jpg" />
+    <Content Include="public\images\tt4.jpg" />
+    <Content Include="public\images\tt5.jpg" />
+    <Content Include="public\images\tt6.jpg" />
+    <Content Include="public\images\tt7.jpg" />
     <Content Include="QuanLyDanhMuc.aspx" />
     <Content Include="QuanLyHang.aspx" />
     <Content Include="QuanLyHoaDon.aspx" />
@@ -286,9 +247,6 @@
     <Compile Include="ThemHang.aspx.designer.cs">
       <DependentUpon>ThemHang.aspx</DependentUpon>
     </Compile>
-    <Content Include="App_Code\Cart.cs" />
-    <Content Include="App_Code\Hang.cs" />
-    <Content Include="App_Code\NguoiDung.cs" />
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -324,6 +282,7 @@
     <Content Include="public\font\OpenSans\OpenSans-Regular.ttf" />
     <Content Include="public\font\OpenSans\OpenSans-Semibold.ttf" />
     <Content Include="public\font\OpenSans\OpenSans-SemiboldItalic.ttf" />
+    <None Include="Properties\PublishProfiles\site4768-WebDeploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -331,6 +290,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

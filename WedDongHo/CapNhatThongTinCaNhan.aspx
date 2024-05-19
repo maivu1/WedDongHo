@@ -12,7 +12,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <form id="form1" runat="server">
-            <asp:SqlDataSource ID="sqlDsThongTinCaNhan" runat="server" ConnectionString="<%$ ConnectionStrings:KieuShopConnectionString %>" DeleteCommand="DELETE FROM [TaiKhoan] WHERE [TaiKhoan] = @TaiKhoan" InsertCommand="INSERT INTO [TaiKhoan] ([TaiKhoan], [MatKhau], [Email], [DiaChi], [SoDT], [Loai]) VALUES (@TaiKhoan, @MatKhau, @Email, @DiaChi, @SoDT, @Loai)" SelectCommand="SELECT * FROM [TaiKhoan]" UpdateCommand="UPDATE [TaiKhoan] SET [MatKhau] = @MatKhau, [Email] = @Email, [DiaChi] = @DiaChi, [SoDT] = @SoDT, [Loai] = @Loai WHERE [TaiKhoan] = @TaiKhoan">
+            <asp:SqlDataSource ID="sqlDsThongTinCaNhan" runat="server" ConnectionString="<%$ ConnectionStrings:Shop %>" DeleteCommand="DELETE FROM [TaiKhoan] WHERE [TaiKhoan] = @TaiKhoan" InsertCommand="INSERT INTO [TaiKhoan] ([TaiKhoan], [MatKhau], [Email], [DiaChi], [SoDT], [Loai]) VALUES (@TaiKhoan, @MatKhau, @Email, @DiaChi, @SoDT, @Loai)" SelectCommand="SELECT * FROM [TaiKhoan]" UpdateCommand="UPDATE [TaiKhoan] SET [MatKhau] = @MatKhau, [Email] = @Email, [DiaChi] = @DiaChi, [SoDT] = @SoDT, [Loai] = @Loai WHERE [TaiKhoan] = @TaiKhoan">
                 <DeleteParameters>
                     <asp:Parameter Name="TaiKhoan" Type="String" />
                 </DeleteParameters>

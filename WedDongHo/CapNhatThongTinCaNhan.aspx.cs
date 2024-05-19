@@ -12,9 +12,9 @@ namespace WedDongHo
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Load();
+            LoadTT();
         }
-        public void Load()
+        public void LoadTT()
         {
             if (!IsPostBack)
             {
@@ -42,7 +42,7 @@ namespace WedDongHo
                 sqlDsThongTinCaNhan.Update();
                 lblThongBao.Text = "Cập nhật thành công";
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 lblThongBao.Text = "Cố lỗi xảy ra";
             }

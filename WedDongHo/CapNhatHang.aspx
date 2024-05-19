@@ -6,12 +6,12 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <form id="form1" runat="server">
     <div>
-        <asp:SqlDataSource ID="sqldsChiTietHang" runat="server" ConnectionString="<%$ ConnectionStrings:KieuShopConnectionString %>" SelectCommand="SELECT * FROM [Hang] WHERE ([MaHang] = @MaHang)">
+        <asp:SqlDataSource ID="sqldsChiTietHang" runat="server" ConnectionString="<%$ ConnectionStrings:Shop %>" SelectCommand="SELECT * FROM [Hang] WHERE ([MaHang] = @MaHang)">
             <SelectParameters>
                 <asp:QueryStringParameter Name="MaHang" QueryStringField="maHang" Type="String" />
             </SelectParameters>
         </asp:SqlDataSource>
-        <asp:SqlDataSource ID="sqldsDanhMuc" runat="server" ConnectionString="<%$ ConnectionStrings:KieuShopConnectionString %>" SelectCommand="SELECT * FROM [DanhMuc]"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="sqldsDanhMuc" runat="server" ConnectionString="<%$ ConnectionStrings:Shop %>" SelectCommand="SELECT * FROM [DanhMuc]"></asp:SqlDataSource>
     </div>
     <h1>Cập nhật hàng</h1>
 

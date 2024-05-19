@@ -7,7 +7,7 @@
     <form id="form1" runat="server">
     <h1>Quản lý danh mục</h1>
         <p>
-            <asp:SqlDataSource ID="sqlDsDanhMuc" runat="server" ConnectionString="<%$ ConnectionStrings:KieuShopConnectionString %>" DeleteCommand="DELETE FROM [DanhMuc] WHERE [MaDanhMuc] = @MaDanhMuc" InsertCommand="INSERT INTO [DanhMuc] ([MaDanhMuc], [TenDanhMuc]) VALUES (@MaDanhMuc, @TenDanhMuc)" SelectCommand="SELECT * FROM [DanhMuc]" UpdateCommand="UPDATE [DanhMuc] SET [TenDanhMuc] = @TenDanhMuc WHERE [MaDanhMuc] = @MaDanhMuc">
+            <asp:SqlDataSource ID="sqlDsDanhMuc" runat="server" ConnectionString="<%$ ConnectionStrings:Shop %>" DeleteCommand="DELETE FROM [DanhMuc] WHERE [MaDanhMuc] = @MaDanhMuc" InsertCommand="INSERT INTO [DanhMuc] ([MaDanhMuc], [TenDanhMuc]) VALUES (@MaDanhMuc, @TenDanhMuc)" SelectCommand="SELECT * FROM [DanhMuc]" UpdateCommand="UPDATE [DanhMuc] SET [TenDanhMuc] = @TenDanhMuc WHERE [MaDanhMuc] = @MaDanhMuc">
                 <DeleteParameters>
                     <asp:Parameter Name="MaDanhMuc" Type="String" />
                 </DeleteParameters>
