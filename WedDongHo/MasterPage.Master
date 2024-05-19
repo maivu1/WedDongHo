@@ -57,6 +57,7 @@
                 <h3>Nguyễn Văn Hải</h3>
                 <h3>Nguyễn Hữu Duy</h3>
                 <h3>Nguyễn Hữu Trường</h3>
+                <h3>Trương Cao Hưng</h3>
             </div>
             <div class="col-md-4 center">
                 <h2>Liên hệ</h2>
@@ -64,6 +65,7 @@
                 <h3>0368 805 196</h3>
                 <h3>0366 810 905</h3>
                 <h3>0328 394 538</h3>
+                <h3>0367 436 345</h3>
             </div>
             <div class="col-md-4 center">
                 <h2>Facebook</h2>
@@ -71,6 +73,7 @@
                 <h3><a href="#">Hải</h3>
                 <h3><a href="#">Duy</h3>
                 <h3><a href="#">Trường</h3>
+                <h3><a href="#">Hưng</a></h3>
             </div>
         </div>
         <div id="footerBottom">

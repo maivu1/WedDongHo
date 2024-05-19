@@ -282,7 +282,11 @@
     <Content Include="public\font\OpenSans\OpenSans-Regular.ttf" />
     <Content Include="public\font\OpenSans\OpenSans-Semibold.ttf" />
     <Content Include="public\font\OpenSans\OpenSans-SemiboldItalic.ttf" />
+    <None Include="Properties\PublishProfiles\datungvogiasiro-001-site1 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\datungvogiasiro-001-site1 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\site4768-WebDeploy.pubxml" />
+    <None Include="Properties\PublishProfiles\site4773-WebDeploy.pubxml" />
+    <None Include="Properties\PublishProfiles\site4776-WebDeploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
